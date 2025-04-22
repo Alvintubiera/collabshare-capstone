@@ -1,0 +1,86 @@
+body {
+    background: linear-gradient(to right, #232526, #414345) !important;
+    min-height: 100vh !important;
+    display: flex !important;
+    align-items: center !important;
+    font-family: 'Segoe UI', sans-serif !important;
+}
+
+.form-wrapper {
+    background: rgba(255, 255, 255, 0.06) !important;
+    backdrop-filter: blur(12px) !important;
+    padding: 2.5rem !important;
+    border-radius: 1.5rem !important;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3) !important;
+    color: #fff !important;
+    transition: all 0.4s ease-in-out !important;
+}
+
+.form-wrapper:hover {
+    box-shadow: 0 12px 60px rgba(0, 0, 0, 0.4) !important;
+}
+
+.form-control,
+.form-select {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    color: #fff !important;
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+
+option {
+    color: #000 !important;
+}
+
+.form-control:focus,
+.form-select:focus {
+    background-color: rgba(255, 255, 255, 0.3) !important;
+    border-color: #ffffff !important;
+    color: #fff !important;
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25) !important;
+}
+
+label {
+    font-weight: 600 !important;
+    color: #ffffff !important;
+}
+
+.btn-custom {
+    background-color: #00c9ff !important;
+    border: none !important;
+    color: #000 !important;
+    font-weight: 600 !important;
+    transition: background-color 0.3s ease, transform 0.3s ease !important;
+}
+
+.btn-custom:hover {
+    background-color: #00b4e6 !important;
+    transform: scale(1.02) !important;
+}
+
+.form-title {
+    font-weight: bold !important;
+    font-size: 1.8rem !important;
+    text-align: center !important;
+    margin-bottom: 1.5rem !important;
+}
+
+.text-danger {
+    font-size: 0.85rem !important;
+
+}
+
+.input-group-text {
+    background: rgba(255, 255, 255, 0.3) !important;
+    border: none !important;
+    font-size: 1rem !important;
+    color: #fff !important;
+}
+
+a {
+    color: #00c9ff !important;
+    text-decoration: none !important;
+}
+
+a:hover {
+    text-decoration: underline !important;
+}

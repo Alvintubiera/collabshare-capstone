@@ -1,0 +1,84 @@
+body {
+    background-color: #1a1a1a !important;
+    color: #fff !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+    background-image: radial-gradient(circle at top left, rgba(255, 255, 255, 0.05), transparent),
+                      radial-gradient(circle at bottom right, rgba(255, 255, 255, 0.05), transparent);
+  }
+
+  .cs-login-wrapper {
+    background: rgba(255, 255, 255, 0.04) !important;
+    backdrop-filter: blur(10px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 20px;
+    padding: 2.5rem;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+    animation: slideFade 0.8s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+
+  @keyframes slideFade {
+    from {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .cs-avatar {
+    width: 70px;
+    height: 70px;
+    background-color: #28809a;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    color: white;
+    margin: 0 auto 1.5rem;
+    box-shadow: 0 0 0 4px #ededed22;
+  }
+
+  .form-control.cs-input {
+    background-color: #eeeeee;
+    color: #1a1a1a;
+    border: none;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+  }
+
+  .form-control.cs-input:focus {
+    background-color: #fff;
+    box-shadow: 0 0 0 3px #28809a;
+  }
+
+  button.cs-btn,
+.cs-btn.btn {
+  background-color: #28809a !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 12px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button.cs-btn:hover,
+.cs-btn.btn:hover {
+  background-color: #1e6c7e !important;
+  transform: scale(1.02);
+}
+
+  .cs-link {
+    color: #61dafb;
+    text-decoration: none;
+  }
+
+  .cs-link:hover {
+    text-decoration: underline;
+  }
